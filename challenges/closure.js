@@ -17,8 +17,11 @@ function myFunction() {
 myFunction();
 
 // Explanation: 
-
+//const internal was declared within the same block as nestedFunction, and as variables defined with const are block-scoped, nestedFunciton is able to look outside its scope once it doesn't find const internal internally.
 
 /* Task 2: Counter */
 
 /* Create a function called `summation` that accepts a parameter and uses a counter to return the summation of that number. For example, `summation(4)` should return 10 because 1+2+3+4 is 10. */
+function summation(param){
+  return 
+}
